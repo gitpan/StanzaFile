@@ -10,14 +10,16 @@ package StanzaFile::Grub ;
 #       Fix things so that package variables can't leak and clobber
 #       other packages.
 #
+#   20-May-2003 Dick Munroe (munroe@csworks.com)
+#       Make the test harness happy.
+#
 
-use 5.8.0 ;
 use strict ;
 use vars qw($VERSION @ISA) ;
 
 use StanzaFile ;
 
-our $VERSION = "1.01" ;
+our $VERSION = "1.02" ;
 
 our @ISA = qw(StanzaFile) ;
 

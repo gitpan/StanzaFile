@@ -15,17 +15,19 @@
 #   17-May-2003 Dick Munroe (munroe@csworks.com)
 #       Fix things so that package variables can't leak.
 #
+#   20-May-2003 Dick Munroe (munroe@csworks.com)
+#       Make the test harness happy.
+#
 
 package StanzaFile ;
 
-use 5.8.0 ;
 use strict ;
 use vars qw($VERSION) ;
 
 use FileHandle ;
 use Stanza ;
 
-our $VERSION = "1.02" ;
+our $VERSION = "1.03" ;
 
 sub _new
 {

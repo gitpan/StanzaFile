@@ -4,13 +4,17 @@
 #   21-Dec-2002 Dick Munroe (munroe@csworks.com)
 #       Finish Documentation.
 #
+#   20-May-2003 Dick Munroe (munroe@csworks.com)
+#       Make sure package variables don't leak.
+#       Make the test harness happy.
+#
 
 package Stanza ;
 
-use 5.8.0 ;
+use vars qw($VERSION) ;
 use strict ;
 
-$Stanza::VERSION = "1.01" ;
+our $VERSION = "1.02" ;
 
 sub new
 {

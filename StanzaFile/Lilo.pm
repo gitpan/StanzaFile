@@ -6,20 +6,22 @@
 #   22-Dec-2002 Dick Munroe (munroe@csworks.com)
 #       Add documentation on use and overridden methods.
 #
-#   17-May-2003 Dick Munroe (munroe@csworks.com)                                                                          
-#       Fix things so that package variables can't leak and clobber                                                            
-#       other packages.                                                                                                       
-#                                                                                                                               
+#   17-May-2003 Dick Munroe (munroe@csworks.com)
+#       Fix things so that package variables can't leak and clobber
+#       other packages.
+#
+#   20-May-2003 Dick Munroe (munroe@csworks.com)
+#       Make the test harness happy.
+#
 
 package StanzaFile::Lilo ;
 
-use 5.8.0 ;
 use strict ;
 use vars qw($VERSION @ISA) ;
 
 use StanzaFile::Grub ;
 
-our $VERSION = "1.01" ;
+our $VERSION = "1.02" ;
 
 our @ISA = qw(StanzaFile::Grub) ;
 

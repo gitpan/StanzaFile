@@ -1,4 +1,18 @@
-Changes as of: 17-May-2003
+Changes as of: 20-May-2003
+
+20-May-2003:
+    Grub.pm (1.02): Dick Munroe (munroe@csworks.com)
+        Make the test harness happy.
+
+    Lilo.pm (1.02): Dick Munroe (munroe@csworks.com)
+        Make the test harness happy.
+
+    Stanza.pm (1.02): Dick Munroe (munroe@csworks.com)
+        Make sure package variables don't leak.
+        Make the test harness happy.
+
+    StanzaFile.pm (1.03): Dick Munroe (munroe@csworks.com)
+        Make the test harness happy.
 
 17-May-2003:
     Grub.pm: Dick Munroe (munroe@csworks.com)
@@ -6,7 +20,7 @@ Changes as of: 17-May-2003
         other packages.
 
     Lilo.pm: Dick Munroe (munroe@csworks.com)
-        Fix things so that package variables can't leak and clobber                                                            
+        Fix things so that package variables can't leak and clobber
         other packages.
 
     StanzaFile.pm: Dick Munroe (munroe@csworks.com)
@@ -20,7 +34,7 @@ Changes as of: 17-May-2003
     Grub.pm: Dick Munroe (munroe@csworks.com)
         Add documentation detailing the overridden methods.
 
-    Stanza.pm (1.01): Dick Munroe (munroe@csworks.com)
+    Stanza.pm: Dick Munroe (munroe@csworks.com)
         Finish Documentation.
 
 20-Dec-2002:
