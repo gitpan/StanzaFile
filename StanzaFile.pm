@@ -17,6 +17,7 @@
 #
 #   20-May-2003 Dick Munroe (munroe@csworks.com)
 #       Make the test harness happy.
+#       Forgot the tests in the MANIFEST.
 #
 
 package StanzaFile ;
@@ -27,7 +28,7 @@ use vars qw($VERSION) ;
 use FileHandle ;
 use Stanza ;
 
-our $VERSION = "1.03" ;
+our $VERSION = "1.04" ;
 
 sub _new
 {
