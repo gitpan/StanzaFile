@@ -11,9 +11,10 @@ Changes as of: 20-May-2003
         Make sure package variables don't leak.
         Make the test harness happy.
 
-    StanzaFile.pm (1.04): Dick Munroe (munroe@csworks.com)
+    StanzaFile.pm (1.05): Dick Munroe (munroe@csworks.com)
         Make the test harness happy.
         Forgot the tests in the MANIFEST.
+        Backport to 5.6.1
 
 17-May-2003:
     Grub.pm: Dick Munroe (munroe@csworks.com)

@@ -18,6 +18,7 @@
 #   20-May-2003 Dick Munroe (munroe@csworks.com)
 #       Make the test harness happy.
 #       Forgot the tests in the MANIFEST.
+#       Backport to 5.6.1
 #
 
 package StanzaFile ;
@@ -28,7 +29,7 @@ use vars qw($VERSION) ;
 use FileHandle ;
 use Stanza ;
 
-our $VERSION = "1.04" ;
+our $VERSION = "1.05" ;
 
 sub _new
 {
